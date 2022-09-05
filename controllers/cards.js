@@ -41,7 +41,7 @@ module.exports = {
       const card = await Card.create({ 
         question: req.body.question, 
         answer: req.body.answer,
-        active: true,
+        //active: true,
         userId: req.user.id,
         deck: deck._id,
       })
