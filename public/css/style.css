@@ -192,7 +192,7 @@ h1 {
   font-weight: 600;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   background: -webkit-linear-gradient(#0d84f4, #689fe4);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
