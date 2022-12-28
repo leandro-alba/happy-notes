@@ -46,7 +46,7 @@ module.exports = {
       
       // setting the value of the title to what's in the DB or what the user entered
       const deckTitle = decks.filter(deck => !req.body.deckTitle.localeCompare(deck, 'en', { sensitivity: 'base' }))[0] || req.body.deckTitle.replace(/\s\s+/g, ' ').trim()
-=======
+//=======
       console.log(deckTitle)
       
       // finding the specific deck
